@@ -1,0 +1,1238 @@
+.main_services {
+  height: 140vh;
+  width: 100%;
+}
+.head_services {
+  height: 107px;
+  width: 100%;
+}
+.services_2 {
+  height: 347.95px;
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+}
+.h_services {
+  height: 347.95px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.services_3 {
+  height: 327.95px;
+  width: 409.95px;
+  border-radius: 28px;
+}
+.services_4 {
+  height: 327.95px;
+  width: 409.95px;
+  border-radius: 28px;
+}
+.services_5 {
+  height: 327.95px;
+  width: 409.95px;
+  border-radius: 28px;
+}
+
+.card_service1 {
+  height: 327.95px;
+  width: 409.95px;
+  background: url("../assets/images/gallery_image_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out; /* Add transition with delay */
+  border-radius: 15px;
+}
+.card_service1::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service1:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+
+.card_service2 {
+  height: 327.95px;
+  width: 409.95px;
+  background: url("../assets/images/gallery_image_2.jpg");
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.1s;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.card_service2::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service2:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_s2 {
+  height: 367px;
+  width: 406px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.card_service3 {
+  height: 327.95px;
+  width: 409.95px;
+  background: url("../assets/images/gallery_image_3.jpg");
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease;
+  transition: 0.1s;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.card_service3::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service3:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+
+.card_service4 {
+  height: 327.95px;
+  width: 409.95px;
+  background: url("../assets/images/gallery_image_4.jpg");
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease;
+  transition: 0.1s;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.card_service4::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service4:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_service5 {
+  height: 327.95px;
+  width: 409.95px;
+  background: url("../assets/images/gallery_image_5.jpg");
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease;
+  transition: 0.1s;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.card_service5::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service5:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_service6 {
+  height: 327.95px;
+  width: 409.95px;
+  background: url("../assets/images/gallery_image_6.jpg");
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease;
+  transition: 0.1s;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.card_service6::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service6:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_service7 {
+  height: 327.95px;
+  width: 409.95px;
+  background: url("../assets/images/gallery_image_7.jpg");
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease;
+  transition: 0.1s;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.card_service7::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service7:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_service8 {
+  height: 327.95px;
+  width: 409.95px;
+  background: url("../assets/images/gallery_image_8.jpg");
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease;
+  transition: 0.1s;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.card_service8::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service8:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_service9 {
+  height: 327.95px;
+  width: 409.95px;
+  background: url("../assets/images/gallery_image_9.jpg");
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease;
+  transition: 0.1s;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.card_service9::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service9:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_s3 {
+  height: 367px;
+  width: 406px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.endbtn {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .main_services {
+    height: 140vh;
+    width: 100%;
+  }
+  .head_services {
+    height: 107px;
+    width: 100%;
+  }
+  .services_2 {
+    height: 347.95px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .h_services {
+    height: 347.95px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .services_3 {
+    height: 327.95px;
+    width: 409.95px;
+    border-radius: 28px;
+  }
+  .services_4 {
+    height: 0px;
+    width: 0px;
+  }
+  .services_5 {
+    height: 0px;
+    width: 0px;
+  }
+
+  .card_service1 {
+    height: 327.95px;
+    width: 509.95px;
+    background: url("../assets/images/gallery_image_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-radius: 15px;
+    margin-left: 15px;
+  }
+  .card_service1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+
+  .card_service2 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_service3 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+
+  .card_service4 {
+    height: 327.95px;
+    width: 509.95px;
+    background: url("../assets/images/gallery_image_4.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 15px;
+  }
+  .card_service4::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service4:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service5 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_service6 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_service7 {
+    height: 327.95px;
+    width: 509.95px;
+    background: url("../assets/images/gallery_image_7.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 15px;
+  }
+  .card_service7::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service7:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service8 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_service9 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_s3 {
+    height: 367px;
+    width: 406px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .endbtn {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .main_services {
+    height: 140vh;
+    width: 100%;
+  }
+  .head_services {
+    height: 107px;
+    width: 100%;
+  }
+  .services_2 {
+    height: 347.95px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .h_services {
+    height: 347.95px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .services_3 {
+    height: 327.95px;
+    width: 409.95px;
+    border-radius: 28px;
+  }
+  .services_4 {
+    height: 0px;
+    width: 0px;
+  }
+  .services_5 {
+    height: 0px;
+    width: 0px;
+  }
+
+  .card_service1 {
+    height: 327.95px;
+    width: 609.95px;
+    background: url("../assets/images/gallery_image_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-radius: 15px;
+    margin-left: 55px;
+  }
+  .card_service1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+
+  .card_service2 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_service3 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+
+  .card_service4 {
+    height: 327.95px;
+    width: 609.95px;
+    background: url("../assets/images/gallery_image_5.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 55px;
+  }
+  .card_service4::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service4:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service5 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_service6 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_service7 {
+    height: 327.95px;
+    width: 609.95px;
+    background: url("../assets/images/gallery_image_8.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 55px;
+  }
+  .card_service7::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service7:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service8 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_service9 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_s3 {
+    height: 367px;
+    width: 406px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .endbtn {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main_services {
+    height: 140vh;
+    width: 100%;
+  }
+  .head_services {
+    height: 107px;
+    width: 100%;
+  }
+  .services_2 {
+    height: 347.95px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .h_services {
+    height: 347.95px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .services_3 {
+    height: 327.95px;
+    width: 409.95px;
+    border-radius: 28px;
+  }
+  .services_4 {
+    height: 0px;
+    width: 0px;
+  }
+  .services_5 {
+    height: 0px;
+    width: 0px;
+  }
+
+  .card_service1 {
+    height: 327.95px;
+    width: 709.95px;
+    background: url("../assets/images/gallery_image_3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-radius: 15px;
+    margin-left: 55px;
+  }
+  .card_service1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+
+  .card_service2 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_service3 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+
+  .card_service4 {
+    height: 327.95px;
+    width: 709.95px;
+    background: url("../assets/images/gallery_image_6.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 55px;
+  }
+  .card_service4::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service4:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service5 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_service6 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_service7 {
+    height: 327.95px;
+    width: 709.95px;
+    background: url("../assets/images/gallery_image_9.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 55px;
+  }
+  .card_service7::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service7:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service8 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_service9 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+  }
+  .card_s3 {
+    height: 367px;
+    width: 406px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .endbtn {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main_services {
+    height: 140vh;
+    width: 100%;
+  }
+  .head_services {
+    height: 107px;
+    width: 100%;
+  }
+  .services_2 {
+    height: 347.95px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .h_services {
+    height: 347.95px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .services_3 {
+    height: 327.95px;
+    width: 409.95px;
+    border-radius: 28px;
+  }
+  .services_4 {
+    height: 327.95px;
+    width: 409.95px;
+    border-radius: 28px;
+  }
+  .services_5 {
+    height: 327.95px;
+    width: 409.95px;
+    border-radius: 28px;
+  }
+
+  .card_service1 {
+    height: 327.95px;
+    width: 322.95px;
+    background: url("../assets/images/gallery_image_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-radius: 15px;
+  }
+  .card_service1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+
+  .card_service2 {
+    height: 327.95px;
+    width: 322.95px;
+    background: url("../assets/images/gallery_image_2.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .card_service2::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s2 {
+    height: 367px;
+    width: 406px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .card_service3 {
+    height: 327.95px;
+    width: 322.95px;
+    background: url("../assets/images/gallery_image_3.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .card_service3::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service3:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+
+  .card_service4 {
+    height: 327.95px;
+    width: 322.95px;
+    background: url("../assets/images/gallery_image_4.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .card_service4::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service4:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service5 {
+    height: 327.95px;
+    width: 322.95px;
+    background: url("../assets/images/gallery_image_5.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .card_service5::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service5:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service6 {
+    height: 327.95px;
+    width: 322.95px;
+    background: url("../assets/images/gallery_image_6.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .card_service6::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service6:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service7 {
+    height: 327.95px;
+    width: 322.95px;
+    background: url("../assets/images/gallery_image_7.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .card_service7::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service7:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service8 {
+    height: 327.95px;
+    width: 322.95px;
+    background: url("../assets/images/gallery_image_8.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .card_service8::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service8:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service9 {
+    height: 327.95px;
+    width: 322.95px;
+    background: url("../assets/images/gallery_image_9.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .card_service9::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service9:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s3 {
+    height: 367px;
+    width: 406px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .endbtn {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

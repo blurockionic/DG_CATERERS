@@ -1,0 +1,217 @@
+.main_company{
+  height:467.2px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.head_company
+{
+  height:367.2px;
+  width:1300px;
+  display: flex;
+}
+.article_box_3{
+  height:600px;
+  width:550px;
+  margin-left: 120px;
+}
+.abox_1{
+  height:180px;
+  width:560px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+.abox_3{
+  height:54px;
+  width:560px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6em;
+  margin-top: -45px;
+}
+.company1{
+  height:267.19px;
+  width:555px;
+  margin-left:70px;
+  background: url("../assets/images/company_image_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .main_company{
+    height:467.2px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .head_company
+  {
+    height:367.2px;
+    width:1300px;
+    display: flex;
+  }
+  .article_box_3{
+    height:600px;
+    width:550px;
+    margin-left: 90px;
+  }
+  .abox_1{
+    height:180px;
+    width:560px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .abox_3{
+    height:84px;
+    width:460px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-top: -45px;
+  }
+  .company1{
+    height:0px;
+    width:0px;
+    margin-left:0px;
+    background: url("");
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .main_company{
+    height:467.2px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .head_company
+  {
+    height:367.2px;
+    width:1300px;
+    display: flex;
+  }
+  .article_box_3{
+    height:600px;
+    width:550px;
+    margin-left: 90px;
+  }
+  .abox_1{
+    height:180px;
+    width:560px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .abox_3{
+    height:84px;
+    width:460px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-top: -45px;
+  }
+  .company1{
+    height:0px;
+    width:0px;
+    margin-left:0px;
+    background: url("");
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .main_company{
+    height:467.2px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .head_company
+  {
+    height:367.2px;
+    width:1300px;
+    display: flex;
+  }
+  .article_box_3{
+    height:600px;
+    width:550px;
+    margin-left: 90px;
+  }
+  .abox_1{
+    height:180px;
+    width:560px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .abox_3{
+    height:84px;
+    width:560px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-top: -45px;
+  }
+  .company1{
+    height:0px;
+    width:0px;
+    margin-left:0px;
+    background: url("");
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  .main_company{
+    height:467.2px;
+    width:88%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .head_company
+  {
+    height:367.2px;
+    width:1300px;
+    display: flex;
+  }
+  .article_box_3{
+    height:600px;
+    width:550px;
+    margin-left: 120px;
+  }
+  .abox_1{
+    height:180px;
+    width:560px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .abox_3{
+    height:54px;
+    width:560px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-top: -45px;
+  }
+  .company1{
+    height:267.19px;
+    width:355px;
+    margin-left:40px;
+    background: url("../assets/images/company_image_2.jpg");
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

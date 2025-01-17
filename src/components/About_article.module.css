@@ -1,0 +1,735 @@
+.mainarticle{
+  height:773.91px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.article_box_1 {
+  width: 290px;
+  height: 616.31px;
+  border-radius: 30px;
+  background: url("../assets/images/about_article_image_3.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 25px;
+  transition: 0.1s;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.article_box_1::before {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+/* On hover, the light expands and fades */
+.article_box_1:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.5s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+
+.article_box_1:hover {
+  color: #111;
+}
+.main_article_1
+{
+  height:100%;
+  width:65%;
+  display: flex;
+  justify-content:start;
+  align-items: center;
+}
+.article_box_2{
+  width:290px;
+  height:616.31px;
+  border-radius: 30px;
+  background: url("../assets/images/about_article_image_4.jpg");
+  position: relative;
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat;
+  margin-left: 25px;
+  transition: .1s;
+}
+.article_box_2::before {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  transition: none; /* No transition by default */
+}
+
+/* On hover, the light expands and fades */
+.article_box_2:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.5s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+
+.article_box_2:hover {
+  color: #111;
+  overflow:hidden;
+}
+.circle{
+  position:absolute;
+  height:190px;
+  width:190px;
+  background-color: #E9B472;
+  right:914px;
+  top:480px;
+  border-radius: 50%;
+}
+.small{
+  position: absolute;
+  height:170px;
+  width:170px;
+  background-color: #951F44;
+  border-radius: 50%;
+  right:10px;
+  top:10px;
+}
+.s1{
+  color:white;
+  margin-left: 49px;
+  margin-top: 40px;
+}
+.s2{
+  color:white;
+  margin-left: 49;
+  margin-top: -45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 600;
+}
+.article_box_3{
+  height:600px;
+  width:550px;
+  margin-left: 100px;
+}
+.abox_1{
+  height:180px;
+  width:560px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+.abox_2{
+  height:26px;
+  width:88px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.abox_3{
+  height:54px;
+  width:560px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .mainarticle{
+    height:1273.91px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .article_box_1 {
+    width:0px;
+    height: 0px;
+    border-radius: 30px;
+    background: url("");
+  }
+  
+  .article_box_1::before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  
+  /* On hover, the light expands and fades */
+  .article_box_1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.5s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  
+  .article_box_1:hover {
+    color: #111;
+  }
+  .main_article_1
+  {
+    height:100%;
+    width:65%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .article_box_2{
+    width:290px;
+    height:616.31px;
+    border-radius: 30px;
+    background: url("../assets/images/about_article_image_4.jpg");
+    position: relative;
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    transition: .1s;
+  }
+  .article_box_2::before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    transition: none; /* No transition by default */
+  }
+  
+  /* On hover, the light expands and fades */
+  .article_box_2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.5s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  
+  .article_box_2:hover {
+    color: #111;
+    overflow:hidden;
+  }
+  .circle{
+    position:absolute;
+    height:0px;
+    width:0px;
+    background-color: #E9B472;
+    right:914px;
+    top:480px;
+    border-radius: 50%;
+  }
+  .small{
+    position: absolute;
+    height:0px;
+    width:0px;
+    background-color: #951F44;
+    border-radius: 50%;
+    right:10px;
+    top:10px;
+  }
+  .s1{
+    color:white;
+    margin-left: 49px;
+    margin-top: 40px;
+  }
+  .s2{
+    color:white;
+    margin-left: 49;
+    margin-top: -45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  .article_box_3{
+    height:600px;
+    width:550px;
+    margin-left: -50px;
+    margin-top: 80px;
+  }
+  .abox_1{
+    height:180px;
+    width:460px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .abox_2{
+    height:26px;
+    width:88px;
+    font-weight: 500;
+    padding-bottom: 30px;
+  }
+  .abox_3{
+    height:54px;
+    width:460px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .mainarticle{
+    height:1273.91px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .article_box_1 {
+    width:0px;
+    height: 0px;
+    border-radius: 30px;
+    background: url("");
+  }
+  
+  .article_box_1::before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  
+  /* On hover, the light expands and fades */
+  .article_box_1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.5s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  
+  .article_box_1:hover {
+    color: #111;
+  }
+  .main_article_1
+  {
+    height:100%;
+    width:65%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .article_box_2{
+    width:290px;
+    height:616.31px;
+    border-radius: 30px;
+    background: url("../assets/images/about_article_image_3.jpg");
+    position: relative;
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    transition: .1s;
+  }
+  .article_box_2::before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    transition: none; /* No transition by default */
+  }
+  
+  /* On hover, the light expands and fades */
+  .article_box_2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.5s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  
+  .article_box_2:hover {
+    color: #111;
+    overflow:hidden;
+  }
+  .circle{
+    position:absolute;
+    height:0px;
+    width:0px;
+    background-color: #E9B472;
+    right:914px;
+    top:480px;
+    border-radius: 50%;
+  }
+  .small{
+    position: absolute;
+    height:0px;
+    width:0px;
+    background-color: #951F44;
+    border-radius: 50%;
+    right:10px;
+    top:10px;
+  }
+  .s1{
+    color:white;
+    margin-left: 49px;
+    margin-top: 40px;
+  }
+  .s2{
+    color:white;
+    margin-left: 49;
+    margin-top: -45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  .article_box_3{
+    height:600px;
+    width:550px;
+    margin-left: -50px;
+    margin-top: 80px;
+  }
+  .abox_1{
+    height:180px;
+    width:460px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .abox_2{
+    height:26px;
+    width:88px;
+    font-weight: 500;
+    padding-bottom: 30px;
+  }
+  .abox_3{
+    height:54px;
+    width:460px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .mainarticle{
+    height:1273.91px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .article_box_1 {
+    width:0px;
+    height: 0px;
+    border-radius: 30px;
+    background: url("");
+  }
+  
+  .article_box_1::before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  
+  /* On hover, the light expands and fades */
+  .article_box_1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.5s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  
+  .article_box_1:hover {
+    color: #111;
+  }
+  .main_article_1
+  {
+    height:100%;
+    width:65%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .article_box_2{
+    width:590px;
+    height:616.31px;
+    border-radius: 30px;
+    background: url("../assets/images/about_article_image_4.jpg");
+    position: relative;
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    transition: .1s;
+  }
+  .article_box_2::before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    transition: none; /* No transition by default */
+  }
+  
+  /* On hover, the light expands and fades */
+  .article_box_2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.5s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  
+  .article_box_2:hover {
+    color: #111;
+    overflow:hidden;
+  }
+  .circle{
+    position:absolute;
+    height:0px;
+    width:0px;
+    background-color: #E9B472;
+    right:914px;
+    top:480px;
+    border-radius: 50%;
+  }
+  .small{
+    position: absolute;
+    height:0px;
+    width:0px;
+    background-color: #951F44;
+    border-radius: 50%;
+    right:10px;
+    top:10px;
+  }
+  .s1{
+    color:white;
+    margin-left: 49px;
+    margin-top: 40px;
+  }
+  .s2{
+    color:white;
+    margin-left: 49;
+    margin-top: -45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  .article_box_3{
+    height:600px;
+    width:550px;
+    margin-left: -50px;
+    margin-top: 80px;
+  }
+  .abox_1{
+    height:180px;
+    width:460px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .abox_2{
+    height:26px;
+    width:88px;
+    font-weight: 500;
+    padding-bottom: 30px;
+  }
+  .abox_3{
+    height:54px;
+    width:460px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  .mainarticle{
+    height:773.91px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .article_box_1 {
+    width: 290px;
+    height: 616.31px;
+    border-radius: 30px;
+    background: url("../assets/images/about_article_image_3.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .article_box_1::before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  
+  /* On hover, the light expands and fades */
+  .article_box_1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.5s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  
+  .article_box_1:hover {
+    color: #111;
+  }
+  .main_article_1
+  {
+    height:100%;
+    width:95%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+  }
+  .article_box_2{
+    width:290px;
+    height:616.31px;
+    border-radius: 30px;
+    background: url("../assets/images/about_article_image_4.jpg");
+    position: relative;
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    transition: .1s;
+  }
+  .article_box_2::before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    transition: none; /* No transition by default */
+  }
+  
+  /* On hover, the light expands and fades */
+  .article_box_2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.5s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  
+  .article_box_2:hover {
+    color: #111;
+    overflow:hidden;
+  }
+  .circle{
+    position:absolute;
+    height:0px;
+    width:0px;
+    background-color: #E9B472;
+    right:914px;
+    top:480px;
+    border-radius: 50%;
+  }
+  .small{
+    position: absolute;
+    height:0px;
+    width:0px;
+    background-color: #951F44;
+    border-radius: 50%;
+    right:10px;
+    top:10px;
+  }
+  .s1{
+    color:white;
+    margin-left: 49px;
+    margin-top: 40px;
+  }
+  .s2{
+    color:white;
+    margin-left: 49;
+    margin-top: -45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  .article_box_3{
+    height:600px;
+    width:550px;
+    margin-left: 100px;
+  }
+  .abox_1{
+    height:180px;
+    width:560px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+  .abox_2{
+    height:26px;
+    width:88px;
+    font-weight: 500;
+    padding-bottom: 30px;
+  }
+  .abox_3{
+    height:54px;
+    width:560px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+  }
+}

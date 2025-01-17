@@ -1,0 +1,26 @@
+.main_section {
+  height:105.59px;
+  width: 100%;
+  margin-top: 95px;
+  position: relative;
+}
+.about_section_1{
+  height:72px;
+  width:100%;
+  color:white;
+  font-size: 60px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items:last baseline;
+}
+.about_section_2{
+  height:25.59px;
+  width:100%;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items:last center;
+  font-size: 16px;
+  font-weight: 400;
+}

@@ -1,0 +1,1624 @@
+.main_footer {
+  height: 499px;
+  max-width: 100%;
+}
+.head_footer {
+  height: 64px;
+  width: 100%;
+  background-color: #951f44;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden; /* Ensures only visible text is shown */
+  position: relative;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marquee ul {
+  display: flex;
+  list-style-type: none; /* Adds bullet points (dots) */
+  padding-left: 0; /* Removes default padding */
+  margin: 0;
+  animation: slide 132s linear infinite; /* Moves the list */
+}
+.marquee ul:nth-child(1) {
+  animation-delay: -23s; /* No delay for the first ul */
+}
+
+.marquee li {
+  margin-right: 2rem; /* Space between words */
+  font-size: 24px;
+  font-weight: 400;
+  color: white; /* Golden text color */
+  margin-left: 100px;
+}
+
+/* Sliding animation */
+@keyframes slide {
+  0% {
+    transform: translateX(100%); /* Start off-screen right */
+  }
+  100% {
+    transform: translateX(-100%); /* End off-screen left */
+  }
+}
+.space {
+  margin-left: 20px;
+}
+.dotted {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.footer_1 {
+  height: 435px;
+  width: 100%;
+  background-color: black;
+}
+.footer_2 {
+  height: 259.95px;
+  width: 1300px;
+  display: flex;
+  margin-left: 300px;
+  padding-top: 100px;
+}
+.foot_1 {
+  height: 259.95px;
+  width: 433.33px;
+}
+.foot_2 {
+  height: 259.95px;
+  width: 541px;
+  display: flex;
+}
+.foot_3 {
+  height: 259.95px;
+  width: 345px;
+}
+.ft_1 {
+  height: 64.95px;
+  width: 100px;
+  background: url("../assets/images/catering_logo.jpg");
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ft_2 {
+  height: 81.61px;
+  width: 303.33px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.ft_3 {
+  height: 46px;
+  width: 230.33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ft_4 {
+  height: 46px;
+  width: 46px;
+  color: white;
+  background-color: #ffffff1a;
+  border-radius: 50%;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.ft_4:hover {
+  background-color: #e9b472;
+}
+.ft_5 {
+  height: 259px;
+  width: 255.83px;
+}
+.ft_6 {
+  height: 26.39px;
+  width: 100%;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+}
+.ft_7 {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: gray;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+}
+.ft_8 {
+  list-style-type: none;
+  height: 203px;
+  width: 100%;
+  padding-top: 20px;
+}
+.ft_7:hover {
+  color: #e9b472;
+}
+.ft_9 {
+  margin-top: 10px;
+}
+.footer_3 {
+  height: 203px;
+  width: 255.83px;
+  margin-top: 35px;
+}
+.footer_4 {
+  height: 76.78px;
+  width: 315px;
+  margin-left: -25px;
+  display: flex;
+}
+.footer_5 {
+  height: 76.78px;
+  width: 40px;
+}
+.footer_6 {
+  height: 76.78px;
+  width: 268px;
+  color: gray;
+  font-size: 16px;
+}
+.foter_4 {
+  height: 55px;
+  width: 315px;
+  margin-left: -25px;
+  display: flex;
+  margin-top: 6px;
+}
+.foter_5 {
+  height: 55px;
+  width: 40px;
+}
+.foter_6 {
+  height: 55px;
+  width: 268px;
+  color: gray;
+  font-size: 16px;
+}
+.fter_4 {
+  height: 30px;
+  width: 315px;
+  margin-left: -25px;
+  display: flex;
+  margin-top: 6px;
+}
+.fter_5 {
+  height: 30px;
+  width: 40px;
+}
+.fter_6 {
+  height: 30px;
+  width: 268px;
+  color: gray;
+  font-size: 16px;
+}
+.footer_7 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9b472;
+}
+.footer_8 {
+  height: 27px;
+  width: 1295px;
+  margin-left: 300px;
+  margin-top: 120px;
+  display: flex;
+}
+.footer_9 {
+  height: 27px;
+  width: 650px;
+  color: gray;
+  font-size: 16px;
+  font-weight: 400;
+}
+.hd1 {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.hd2 {
+  color: #e9b472;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.footer_10 {
+  height: 27px;
+  width: 650px;
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: end;
+}
+.hd3 {
+  color: white;
+  margin-top: -3px;
+  cursor: pointer;
+}
+.hd4 {
+  height: 10px;
+  width: 10px;
+}
+.color_4{
+  color:white;
+}
+.color_1{
+  color:white;
+}
+.color_2{
+  color:white;
+}
+.color_3{
+  color:white;
+}
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .main_footer {
+    height: 1009px;
+    max-width: 100%;
+  }
+  .head_footer {
+    height: 54px;
+    width: 100%;
+    background-color: #951f44;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marquee {
+    width: 100%;
+    overflow: hidden; /* Ensures only visible text is shown */
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marquee ul {
+    display: flex;
+    list-style-type: none; /* Adds bullet points (dots) */
+    padding-left: 0; /* Removes default padding */
+    margin: 0;
+    animation: slide 132s linear infinite; /* Moves the list */
+  }
+  .marquee ul:nth-child(1) {
+    animation-delay: -23s; /* No delay for the first ul */
+  }
+
+  .marquee li {
+    margin-right: 2rem; /* Space between words */
+    font-size: 24px;
+    font-weight: 400;
+    color: white; /* Golden text color */
+    margin-left: 100px;
+  }
+
+  /* Sliding animation */
+  @keyframes slide {
+    0% {
+      transform: translateX(100%); /* Start off-screen right */
+    }
+    100% {
+      transform: translateX(-100%); /* End off-screen left */
+    }
+  }
+  .space {
+    margin-left: 20px;
+  }
+  .dotted {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .footer_1 {
+    height: 955px;
+    width: 100%;
+    background-color: black;
+  }
+  .footer_2 {
+    height: 859.95px;
+    width: 550px;
+    display: flex;
+    margin-left: 0px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+  }
+  .foot_1 {
+    height: 259.95px;
+    width: 433.33px;
+    padding-left: 120px;
+  }
+  .foot_2 {
+    height: 259.95px;
+    width: 541px;
+    display: flex;
+  }
+  .foot_3 {
+    height: 259.95px;
+    width: 345px;
+  }
+  .ft_1 {
+    height: 64.95px;
+    width: 100px;
+    background: url("../assets/images/catering_logo.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 70px;
+  }
+  .ft_2 {
+    height: 81.61px;
+    width: 303.33px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 1px;
+  }
+  .ft_3 {
+    height: 46px;
+    width: 230.33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ft_4 {
+    height: 46px;
+    width: 46px;
+    color: white;
+    background-color: #ffffff1a;
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .ft_4:hover {
+    background-color: #e9b472;
+  }
+  .ft_5 {
+    height: 259px;
+    width: 255.83px;
+  }
+  .ft_6 {
+    height: 26.39px;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .ft_7 {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: gray;
+    margin-left: -30px;
+  }
+  .ft_8 {
+    list-style-type: none;
+    height: 203px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .ft_7:hover {
+    color: #e9b472;
+  }
+  .ft_9 {
+    margin-top: 6px;
+  }
+  .footer_3 {
+    height: 203px;
+    width: 255.83px;
+    margin-top: 35px;
+  }
+  .footer_4 {
+    height: 76.78px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+  }
+  .footer_5 {
+    height: 76.78px;
+    width: 40px;
+  }
+  .footer_6 {
+    height: 76.78px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .foter_4 {
+    height: 55px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+    margin-top: 6px;
+  }
+  .foter_5 {
+    height: 55px;
+    width: 40px;
+  }
+  .foter_6 {
+    height: 55px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .fter_4 {
+    height: 30px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+    margin-top: 6px;
+  }
+  .fter_5 {
+    height: 30px;
+    width: 40px;
+  }
+  .fter_6 {
+    height: 30px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .footer_7 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9b472;
+  }
+  .footer_8 {
+    height: 27px;
+    width: 535px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .footer_9 {
+    height: 27px;
+    width: 650px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hd1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hd2 {
+    color: #e9b472;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .footer_10 {
+    height: 27px;
+    width: 650px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .hd3 {
+    color: white;
+    margin-top: -3px;
+    cursor: pointer;
+  }
+  .hd4 {
+    height: 10px;
+    width: 10px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .main_footer {
+    height: 1009px;
+    max-width: 100%;
+  }
+  .head_footer {
+    height: 54px;
+    width: 100%;
+    background-color: #951f44;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marquee {
+    width: 100%;
+    overflow: hidden; /* Ensures only visible text is shown */
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marquee ul {
+    display: flex;
+    list-style-type: none; /* Adds bullet points (dots) */
+    padding-left: 0; /* Removes default padding */
+    margin: 0;
+    animation: slide 132s linear infinite; /* Moves the list */
+  }
+  .marquee ul:nth-child(1) {
+    animation-delay: -23s; /* No delay for the first ul */
+  }
+
+  .marquee li {
+    margin-right: 2rem; /* Space between words */
+    font-size: 24px;
+    font-weight: 400;
+    color: white; /* Golden text color */
+    margin-left: 100px;
+  }
+
+  /* Sliding animation */
+  @keyframes slide {
+    0% {
+      transform: translateX(100%); /* Start off-screen right */
+    }
+    100% {
+      transform: translateX(-100%); /* End off-screen left */
+    }
+  }
+  .space {
+    margin-left: 20px;
+  }
+  .dotted {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .footer_1 {
+    height: 955px;
+    width: 100%;
+    background-color: black;
+  }
+  .footer_2 {
+    height: 859.95px;
+    width: 550px;
+    display: flex;
+    margin-left: 0px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+  }
+  .foot_1 {
+    height: 259.95px;
+    width: 433.33px;
+    padding-left: 10px;
+  }
+  .foot_2 {
+    height: 259.95px;
+    width: 541px;
+    display: flex;
+  }
+  .foot_3 {
+    height: 259.95px;
+    width: 345px;
+  }
+  .ft_1 {
+    height: 64.95px;
+    width: 100px;
+    background: url("../assets/images/catering_logo.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 70px;
+  }
+  .ft_2 {
+    height: 81.61px;
+    width: 303.33px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 1px;
+  }
+  .ft_3 {
+    height: 46px;
+    width: 230.33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ft_4 {
+    height: 46px;
+    width: 46px;
+    color: white;
+    background-color: #ffffff1a;
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .ft_4:hover {
+    background-color: #e9b472;
+  }
+  .ft_5 {
+    height: 259px;
+    width: 255.83px;
+  }
+  .ft_6 {
+    height: 26.39px;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .ft_7 {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: gray;
+    margin-left: -30px;
+  }
+  .ft_8 {
+    list-style-type: none;
+    height: 203px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .ft_7:hover {
+    color: #e9b472;
+  }
+  .ft_9 {
+    margin-top: 6px;
+  }
+  .footer_3 {
+    height: 203px;
+    width: 255.83px;
+    margin-top: 35px;
+  }
+  .footer_4 {
+    height: 76.78px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+  }
+  .footer_5 {
+    height: 76.78px;
+    width: 40px;
+  }
+  .footer_6 {
+    height: 76.78px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .foter_4 {
+    height: 55px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+    margin-top: 6px;
+  }
+  .foter_5 {
+    height: 55px;
+    width: 40px;
+  }
+  .foter_6 {
+    height: 55px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .fter_4 {
+    height: 30px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+    margin-top: 6px;
+  }
+  .fter_5 {
+    height: 30px;
+    width: 40px;
+  }
+  .fter_6 {
+    height: 30px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .footer_7 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9b472;
+  }
+  .footer_8 {
+    height: 27px;
+    width: 535px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .footer_9 {
+    height: 27px;
+    width: 650px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hd1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hd2 {
+    color: #e9b472;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .footer_10 {
+    height: 27px;
+    width: 650px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .hd3 {
+    color: white;
+    margin-top: -3px;
+    cursor: pointer;
+  }
+  .hd4 {
+    height: 10px;
+    width: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main_footer {
+    height: 1009px;
+    max-width: 100%;
+  }
+  .head_footer {
+    height: 54px;
+    width: 100%;
+    background-color: #951f44;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marquee {
+    width: 100%;
+    overflow: hidden; /* Ensures only visible text is shown */
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marquee ul {
+    display: flex;
+    list-style-type: none; /* Adds bullet points (dots) */
+    padding-left: 0; /* Removes default padding */
+    margin: 0;
+    animation: slide 132s linear infinite; /* Moves the list */
+  }
+  .marquee ul:nth-child(1) {
+    animation-delay: -23s; /* No delay for the first ul */
+  }
+
+  .marquee li {
+    margin-right: 2rem; /* Space between words */
+    font-size: 24px;
+    font-weight: 400;
+    color: white; /* Golden text color */
+    margin-left: 100px;
+  }
+
+  /* Sliding animation */
+  @keyframes slide {
+    0% {
+      transform: translateX(100%); /* Start off-screen right */
+    }
+    100% {
+      transform: translateX(-100%); /* End off-screen left */
+    }
+  }
+  .space {
+    margin-left: 20px;
+  }
+  .dotted {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .footer_1 {
+    height: 955px;
+    width: 100%;
+    background-color: black;
+  }
+  .footer_2 {
+    height: 859.95px;
+    width: 550px;
+    display: flex;
+    margin-left: 0px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+  }
+  .foot_1 {
+    height: 259.95px;
+    width: 433.33px;
+    padding-left: 10px;
+  }
+  .foot_2 {
+    height: 259.95px;
+    width: 541px;
+    display: flex;
+  }
+  .foot_3 {
+    height: 259.95px;
+    width: 345px;
+  }
+  .ft_1 {
+    height: 64.95px;
+    width: 100px;
+    background: url("../assets/images/catering_logo.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 70px;
+  }
+  .ft_2 {
+    height: 81.61px;
+    width: 303.33px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 1px;
+  }
+  .ft_3 {
+    height: 46px;
+    width: 230.33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ft_4 {
+    height: 46px;
+    width: 46px;
+    color: white;
+    background-color: #ffffff1a;
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .ft_4:hover {
+    background-color: #e9b472;
+  }
+  .ft_5 {
+    height: 259px;
+    width: 255.83px;
+  }
+  .ft_6 {
+    height: 26.39px;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .ft_7 {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: gray;
+    margin-left: -30px;
+  }
+  .ft_8 {
+    list-style-type: none;
+    height: 203px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .ft_7:hover {
+    color: #e9b472;
+  }
+  .ft_9 {
+    margin-top: 6px;
+  }
+  .footer_3 {
+    height: 203px;
+    width: 255.83px;
+    margin-top: 35px;
+  }
+  .footer_4 {
+    height: 76.78px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+  }
+  .footer_5 {
+    height: 76.78px;
+    width: 40px;
+  }
+  .footer_6 {
+    height: 76.78px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .foter_4 {
+    height: 55px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+    margin-top: 6px;
+  }
+  .foter_5 {
+    height: 55px;
+    width: 40px;
+  }
+  .foter_6 {
+    height: 55px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .fter_4 {
+    height: 30px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+    margin-top: 6px;
+  }
+  .fter_5 {
+    height: 30px;
+    width: 40px;
+  }
+  .fter_6 {
+    height: 30px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .footer_7 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9b472;
+  }
+  .footer_8 {
+    height: 27px;
+    width: 725px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .footer_9 {
+    height: 27px;
+    width: 650px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hd1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hd2 {
+    color: #e9b472;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .footer_10 {
+    height: 27px;
+    width: 650px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .hd3 {
+    color: white;
+    margin-top: -3px;
+    cursor: pointer;
+  }
+  .hd4 {
+    height: 10px;
+    width: 10px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main_footer {
+    height: 1009px;
+    max-width: 100%;
+  }
+  .head_footer {
+    height: 64px;
+    width: 100%;
+    background-color: #951f44;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marquee {
+    width: 100%;
+    overflow: hidden; /* Ensures only visible text is shown */
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marquee ul {
+    display: flex;
+    list-style-type: none; /* Adds bullet points (dots) */
+    padding-left: 0; /* Removes default padding */
+    margin: 0;
+    animation: slide 132s linear infinite; /* Moves the list */
+  }
+  .marquee ul:nth-child(1) {
+    animation-delay: -23s; /* No delay for the first ul */
+  }
+
+  .marquee li {
+    margin-right: 2rem; /* Space between words */
+    font-size: 24px;
+    font-weight: 400;
+    color: white; /* Golden text color */
+    margin-left: 100px;
+  }
+
+  /* Sliding animation */
+  @keyframes slide {
+    0% {
+      transform: translateX(100%); /* Start off-screen right */
+    }
+    100% {
+      transform: translateX(-100%); /* End off-screen left */
+    }
+  }
+  .space {
+    margin-left: 20px;
+  }
+  .dotted {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .footer_1 {
+    height: 955px;
+    width: 100%;
+    background-color: black;
+  }
+  .footer_2 {
+    height: 859.95px;
+    width: 100%;
+    display: flex;
+    margin-left: 0px;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-top: 100px;
+  }
+  .foot_1 {
+    height: 259.95px;
+    width: 477px;
+    margin-left: 250px;
+  }
+  .foot_2 {
+    height: 259.95px;
+    width: 541px;
+    display: flex;
+    margin-left: 70px;
+  }
+  .foot_3 {
+    height: 259.95px;
+    width: 345px;
+  }
+  .ft_1 {
+    height: 64.95px;
+    width: 100px;
+    background: url("../assets/images/catering_logo.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 180px;
+  }
+  .ft_2 {
+    height: 81.61px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 12px;
+  }
+  .ft_3 {
+    height: 46px;
+    width: 230.33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+  }
+  .ft_4 {
+    height: 46px;
+    width: 46px;
+    color: white;
+    background-color: #ffffff1a;
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .ft_4:hover {
+    background-color: #e9b472;
+  }
+  .ft_5 {
+    height: 259px;
+    width: 255.83px;
+  }
+  .ft_6 {
+    height: 26.39px;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .ft_7 {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: gray;
+    margin-left: -30px;
+  }
+  .ft_8 {
+    list-style-type: none;
+    height: 203px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .ft_7:hover {
+    color: #e9b472;
+  }
+  .ft_9 {
+    margin-top: 6px;
+  }
+  .footer_3 {
+    height: 203px;
+    width: 255.83px;
+    margin-top: 35px;
+  }
+  .footer_4 {
+    height: 76.78px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+  }
+  .footer_5 {
+    height: 76.78px;
+    width: 40px;
+  }
+  .footer_6 {
+    height: 76.78px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .foter_4 {
+    height: 55px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+    margin-top: 6px;
+  }
+  .foter_5 {
+    height: 55px;
+    width: 40px;
+  }
+  .foter_6 {
+    height: 55px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .fter_4 {
+    height: 30px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+    margin-top: 6px;
+  }
+  .fter_5 {
+    height: 30px;
+    width: 40px;
+  }
+  .fter_6 {
+    height: 30px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .footer_7 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9b472;
+  }
+  .footer_8 {
+    height: 27px;
+    width: 935px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .footer_9 {
+    height: 27px;
+    width: 650px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hd1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hd2 {
+    color: #e9b472;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .footer_10 {
+    height: 27px;
+    width: 650px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .hd3 {
+    color: white;
+    margin-top: -3px;
+    cursor: pointer;
+  }
+  .hd4 {
+    height: 10px;
+    width: 10px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .main_footer {
+    height: 499px;
+    max-width: 100%;
+  }
+  .head_footer {
+    height: 64px;
+    width: 100%;
+    background-color: #951f44;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marquee {
+    width: 100%;
+    overflow: hidden; /* Ensures only visible text is shown */
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marquee ul {
+    display: flex;
+    list-style-type: none; /* Adds bullet points (dots) */
+    padding-left: 0; /* Removes default padding */
+    margin: 0;
+    animation: slide 132s linear infinite; /* Moves the list */
+  }
+  .marquee ul:nth-child(1) {
+    animation-delay: -23s; /* No delay for the first ul */
+  }
+
+  .marquee li {
+    margin-right: 2rem; /* Space between words */
+    font-size: 24px;
+    font-weight: 400;
+    color: white; /* Golden text color */
+    margin-left: 100px;
+  }
+
+  /* Sliding animation */
+  @keyframes slide {
+    0% {
+      transform: translateX(100%); /* Start off-screen right */
+    }
+    100% {
+      transform: translateX(-100%); /* End off-screen left */
+    }
+  }
+  .space {
+    margin-left: 20px;
+  }
+  .dotted {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .footer_1 {
+    height: 435px;
+    width: 100%;
+    background-color: black;
+  }
+  .footer_2 {
+    height: 259.95px;
+    width: 1300px;
+    display: flex;
+    margin-left: 50px;
+    padding-top: 100px;
+  }
+  .foot_1 {
+    height: 259.95px;
+    width: 433.33px;
+  }
+  .foot_2 {
+    height: 259.95px;
+    width: 541px;
+    display: flex;
+  }
+  .foot_3 {
+    height: 259.95px;
+    width: 345px;
+  }
+  .ft_1 {
+    height: 64.95px;
+    width: 100px;
+    background: url("../assets/images/catering_logo.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .ft_2 {
+    height: 81.61px;
+    width: 303.33px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .ft_3 {
+    height: 46px;
+    width: 230.33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ft_4 {
+    height: 46px;
+    width: 46px;
+    color: white;
+    background-color: #ffffff1a;
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  .ft_4:hover {
+    background-color: #e9b472;
+  }
+  .ft_5 {
+    height: 259px;
+    width: 255.83px;
+  }
+  .ft_6 {
+    height: 26.39px;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .ft_7 {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: gray;
+    margin-left: 0px;
+  }
+  .ft_8 {
+    list-style-type: none;
+    height: 203px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .ft_7:hover {
+    color: #e9b472;
+  }
+  .ft_9 {
+    margin-top: 6px;
+  }
+  .footer_3 {
+    height: 203px;
+    width: 255.83px;
+    margin-top: 35px;
+  }
+  .footer_4 {
+    height: 76.78px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+  }
+  .footer_5 {
+    height: 76.78px;
+    width: 40px;
+  }
+  .footer_6 {
+    height: 76.78px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .foter_4 {
+    height: 55px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+    margin-top: 6px;
+  }
+  .foter_5 {
+    height: 55px;
+    width: 40px;
+  }
+  .foter_6 {
+    height: 55px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .fter_4 {
+    height: 30px;
+    width: 315px;
+    margin-left: -25px;
+    display: flex;
+    margin-top: 6px;
+  }
+  .fter_5 {
+    height: 30px;
+    width: 40px;
+  }
+  .fter_6 {
+    height: 30px;
+    width: 268px;
+    color: gray;
+    font-size: 16px;
+  }
+  .footer_7 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9b472;
+  }
+  .footer_8 {
+    height: 27px;
+    width: 1295px;
+    margin-left: 30px;
+    margin-top: 120px;
+    display: flex;
+  }
+  .footer_9 {
+    height: 27px;
+    width: 650px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hd1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .hd2 {
+    color: #e9b472;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .footer_10 {
+    height: 27px;
+    width: 650px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: end;
+  }
+  .hd3 {
+    color: white;
+    margin-top: -3px;
+    cursor: pointer;
+  }
+  .hd4 {
+    height: 10px;
+    width: 10px;
+  }
+}

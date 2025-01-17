@@ -1,0 +1,870 @@
+.main_section {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.middle_box {
+  height: 300px;
+  width: 50%;
+}
+.first_box {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_head {
+  color: white;
+  height: 30px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paradot {
+  color: yellow;
+}
+.second_head {
+  height: 100px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  margin: 0;
+  background-color: transparent;
+  overflow: hidden;
+  text-shadow: 1px 1px 4px black;
+  font-family: "Domine", serif;
+}
+.third_head {
+  height: 75px;
+  width: 100%;
+}
+.third_1 {
+  height: 35px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third_2 {
+  height: 35px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.fourth_head {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gapspan {
+  height: 30px;
+  width: 10px;
+  border: 2px solid transparent;
+}
+.arrow {
+  height: 44px;
+  width: 100%;
+  margin-top: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mouse_icon {
+  width: 25px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 15px;
+  position: relative;
+  animation: shakeVertical 1.5s infinite;
+  cursor: pointer;
+}
+
+/* Mouse wheel */
+.mouse_icon::before {
+  content: "";
+  width: 2px;
+  height: 20px;
+  background-color: white;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Vertical shake animation */
+@keyframes shakeVertical {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .main_section {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .middle_box {
+    height: 300px;
+    width: 100%;
+  }
+  .first_box {
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+  }
+  .first_head {
+    color: white;
+    height: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .paradot {
+    color: yellow;
+  }
+  .second_head {
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    margin: 0;
+    background-color: transparent;
+    overflow: hidden;
+    text-shadow: 1px 1px 4px black;
+    font-family: "Domine", serif;
+  }
+  .third_head {
+    height: 105px;
+    width: 100%;
+  }
+  .third_1 {
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 19px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third_2 {
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  .fourth_head {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gapspan {
+    height: 30px;
+    width: 10px;
+    border: 2px solid transparent;
+  }
+  .arrow {
+    height: 44px;
+    width: 100%;
+    margin-top: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mouse_icon {
+    width: 25px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: relative;
+    animation: shakeVertical 1.5s infinite;
+    cursor: pointer;
+  }
+
+  /* Mouse wheel */
+  .mouse_icon::before {
+    content: "";
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Vertical shake animation */
+  @keyframes shakeVertical {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-40px);
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .main_section {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .middle_box {
+    height: 300px;
+    width: 100%;
+  }
+  .first_box {
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+  }
+  .first_head {
+    color: white;
+    height: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .paradot {
+    color: yellow;
+  }
+  .second_head {
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    margin: 0;
+    background-color: transparent;
+    overflow: hidden;
+    text-shadow: 1px 1px 4px black;
+    font-family: "Domine", serif;
+  }
+  .third_head {
+    height: 105px;
+    width: 100%;
+  }
+  .third_1 {
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third_2 {
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  .fourth_head {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gapspan {
+    height: 30px;
+    width: 10px;
+    border: 2px solid transparent;
+  }
+  .arrow {
+    height: 44px;
+    width: 100%;
+    margin-top: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mouse_icon {
+    width: 25px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: relative;
+    animation: shakeVertical 1.5s infinite;
+    cursor: pointer;
+  }
+
+  /* Mouse wheel */
+  .mouse_icon::before {
+    content: "";
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Vertical shake animation */
+  @keyframes shakeVertical {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-40px);
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main_section {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .middle_box {
+    height: 300px;
+    width: 100%;
+  }
+  .first_box {
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+  }
+  .first_head {
+    color: white;
+    height: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .paradot {
+    color: yellow;
+  }
+  .second_head {
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    margin: 0;
+    background-color: transparent;
+    overflow: hidden;
+    text-shadow: 1px 1px 4px black;
+    font-family: "Domine", serif;
+  }
+  .third_head {
+    height: 105px;
+    width: 100%;
+  }
+  .third_1 {
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third_2 {
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  .fourth_head {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gapspan {
+    height: 30px;
+    width: 10px;
+    border: 2px solid transparent;
+  }
+  .arrow {
+    height: 44px;
+    width: 100%;
+    margin-top: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mouse_icon {
+    width: 25px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: relative;
+    animation: shakeVertical 1.5s infinite;
+    cursor: pointer;
+  }
+
+  /* Mouse wheel */
+  .mouse_icon::before {
+    content: "";
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Vertical shake animation */
+  @keyframes shakeVertical {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-40px);
+    }
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main_section {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .middle_box {
+    height: 300px;
+    width: 100%;
+  }
+  .first_box {
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+  }
+  .first_head {
+    color: white;
+    height: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .paradot {
+    color: yellow;
+  }
+  .second_head {
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    margin: 0;
+    background-color: transparent;
+    overflow: hidden;
+    text-shadow: 1px 1px 4px black;
+    font-family: "Domine", serif;
+  }
+  .third_head {
+    height: 105px;
+    width: 100%;
+  }
+  .third_1 {
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third_2 {
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  .fourth_head {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gapspan {
+    height: 30px;
+    width: 10px;
+    border: 2px solid transparent;
+  }
+  .arrow {
+    height: 44px;
+    width: 100%;
+    margin-top: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mouse_icon {
+    width: 25px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: relative;
+    animation: shakeVertical 1.5s infinite;
+    cursor: pointer;
+  }
+
+  /* Mouse wheel */
+  .mouse_icon::before {
+    content: "";
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Vertical shake animation */
+  @keyframes shakeVertical {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-40px);
+    }
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .main_section {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .middle_box {
+    height: 300px;
+    width: 100%;
+  }
+  .first_box {
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+  }
+  .first_head {
+    color: white;
+    height: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .paradot {
+    color: yellow;
+  }
+  .second_head {
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    margin: 0;
+    background-color: transparent;
+    overflow: hidden;
+    text-shadow: 1px 1px 4px black;
+    font-family: "Domine", serif;
+  }
+  .third_head {
+    height: 105px;
+    width: 100%;
+  }
+  .third_1 {
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third_2 {
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  .fourth_head {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gapspan {
+    height: 30px;
+    width: 10px;
+    border: 2px solid transparent;
+  }
+  .arrow {
+    height: 44px;
+    width: 100%;
+    margin-top: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mouse_icon {
+    width: 25px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: relative;
+    animation: shakeVertical 1.5s infinite;
+    cursor: pointer;
+  }
+
+  /* Mouse wheel */
+  .mouse_icon::before {
+    content: "";
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Vertical shake animation */
+  @keyframes shakeVertical {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-40px);
+    }
+  }
+}
+@media only screen and (min-width: 1399px) and (max-width: 1568px) {
+  .main_section {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .middle_box {
+    height: 300px;
+    width: 100%;
+  }
+  .first_box {
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+  }
+  .first_head {
+    color: white;
+    height: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .paradot {
+    color: yellow;
+  }
+  .second_head {
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    margin: 0;
+    background-color: transparent;
+    overflow: hidden;
+    text-shadow: 1px 1px 4px black;
+    font-family: "Domine", serif;
+  }
+  .third_head {
+    height: 105px;
+    width: 100%;
+  }
+  .third_1 {
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third_2 {
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  .fourth_head {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gapspan {
+    height: 30px;
+    width: 10px;
+    border: 2px solid transparent;
+  }
+  .arrow {
+    height: 44px;
+    width: 100%;
+    margin-top: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mouse_icon {
+    width: 25px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: relative;
+    animation: shakeVertical 1.5s infinite;
+    cursor: pointer;
+  }
+
+  /* Mouse wheel */
+  .mouse_icon::before {
+    content: "";
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Vertical shake animation */
+  @keyframes shakeVertical {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-40px);
+    }
+  }
+}

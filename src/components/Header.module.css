@@ -1,0 +1,240 @@
+.navhead {
+  height: 90px;
+  width: 75%;
+  background-color: #ffffff;
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  height: 90px;
+  width: 100px;
+  padding-top: 6px;
+}
+.mainhead {
+  height: 95px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_img {
+  height: 70px;
+  width: 100px;
+}
+/*black border list box*/
+.bgContainer {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+  font-size: 17px;
+  font-weight: 500;
+}
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .navhead {
+    height: 120px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: center;
+    position: relative;
+  }
+
+  .logo {
+    height: 90px;
+    width: 100px;
+    padding-top: 6px;
+    visibility: hidden;
+  }
+  .mainhead {
+    height: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo_img {
+    height: 70px;
+    width: 100px;
+  }
+  /*black border list box*/
+  .bgContainer {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    font-size: 17px;
+    font-weight: 500;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .navhead {
+    height: 120px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: center;
+    position: relative;
+  }
+
+  .logo {
+    height: 90px;
+    width: 100px;
+    padding-top: 6px;
+    visibility: hidden;
+  }
+  .mainhead {
+    height: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo_img {
+    height: 70px;
+    width: 100px;
+  }
+  /*black border list box*/
+  .bgContainer {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    font-size: 17px;
+    font-weight: 500;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navhead {
+    height: 120px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: center;
+    position: relative;
+  }
+
+  .logo {
+    height: 90px;
+    width: 100px;
+    padding-top: 6px;
+    visibility: hidden;
+  }
+  .mainhead {
+    height: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo_img {
+    height: 70px;
+    width: 100px;
+  }
+  /*black border list box*/
+  .bgContainer {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    font-size: 17px;
+    font-weight: 500;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .navhead {
+    height: 120px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: center;
+    position: relative;
+  }
+
+  .logo {
+    height: 90px;
+    width: 100px;
+    padding-top: 6px;
+  }
+  .mainhead {
+    height: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo_img {
+    height: 70px;
+    width: 100px;
+  }
+  /*black border list box*/
+  .bgContainer {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    font-size: 17px;
+    font-weight: 500;
+  }
+}
+@media only screen and (min-width: 1399px) and (max-width: 1568px) {
+  .navhead {
+    height: 100px;
+    width: 91%;
+    background-color: #ffffff;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0px;
+    align-items: center;
+    position: relative;
+  }
+
+  .logo {
+    height: 90px;
+    width: 100px;
+    padding-top: 6px;
+  }
+  .mainhead {
+    height: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo_img {
+    height: 70px;
+    width: 100px;
+  }
+  /*black border list box*/
+  .bgContainer {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    font-size: 17px;
+    font-weight: 500;
+  }
+}

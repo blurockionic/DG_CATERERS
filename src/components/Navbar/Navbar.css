@@ -1,0 +1,115 @@
+.menu {
+  font-size: 36px;
+  height: 60px;
+  width: 60px;
+  background-color: #a30132;
+  color: white;
+  border-radius: 50%;
+  padding-left: 12px;
+  visibility: visible;
+  margin-left: 0px;
+  cursor: pointer;
+  visibility: hidden;
+}
+.main_menu {
+  margin-top: 9px;
+  margin-left: 0px;
+}
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .menu {
+    font-size: 36px;
+    height: 60px;
+    width: 60px;
+    background-color: #a30132;
+    color: white;
+    border-radius: 50%;
+    padding-left: 12px;
+    padding-top: 2px;
+    visibility: visible;
+    margin-left: -70px;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .menu {
+    font-size: 36px;
+    height: 60px;
+    width: 60px;
+    background-color: #a30132;
+    color: white;
+    border-radius: 50%;
+    padding-left: 12px;
+    padding-top: 2px;
+    visibility: visible;
+    margin-left: -70px;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .menu {
+    font-size: 36px;
+    height: 60px;
+    width: 60px;
+    background-color: #a30132;
+    color: white;
+    border-radius: 50%;
+    padding-left: 12px;
+    padding-top: 2px;
+    visibility: visible;
+    margin-left: -70px;
+    cursor: pointer;
+  }
+}
+nav ul {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul.open {
+  display: block;
+}
+
+.navitems {
+  font-size: 20px;
+  color: white !important;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 4px;
+  display: block;
+  z-index: 1;
+  width: 100%;
+}
+.navitems:hover {
+  background-color: #83072c;
+  color: white !important;
+  width: 120px;
+}
+.nav-link {
+  margin-top: 20px;
+  width: 140px;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin-left: -30px;
+  background-color: #a30132;
+  position: absolute;
+  z-index: 1;
+}
+.service_1 {
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.home_1 {
+  color: #a30132;
+}
+.home_1:hover {
+  color: white;
+}
+.space {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

@@ -1,0 +1,929 @@
+.main_services {
+  height: 65vh;
+  width: 100%;
+  margin-top: 90px;
+}
+.services_1 {
+  height: 156px;
+  width: 1300px;
+}
+.services_2 {
+  height: 595px;
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+}
+.services_3 {
+  height:479px;
+  width:403.33px;
+  border-radius: 28px;
+}
+.h_services {
+  height: 610px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services_4 {
+  height: 595px;
+  width: 410px;
+  border-radius: 28px;
+  margin-right: 450px;
+}
+.services_5 {
+  height: 595px;
+  width: 410px;
+  border-radius: 28px;
+  background-color: #f7f4ed;
+}
+
+.card_service1 {
+  height: 294.23px;
+  width: 403.33px;
+  background: url("../assets/images/blog_image_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out; /* Add transition with delay */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card_service1:hover {
+  background-size: 450px; /* Increased size for zoom effect */
+  background-position: center; /* Keeps the image centered */
+}
+.card_service1::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service1:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_service2 {
+  height: 294.23px;
+  width: 403.33px;
+  background: url("../assets/images/blog_image_2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out; /* Add transition with delay */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card_service2:hover {
+  background-size: 450px; /* Increased size for zoom effect */
+  background-position: center; /* Keeps the image centered */
+}
+.card_service2::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service2:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_service3 {
+  height: 294.23px;
+  width: 403.33px;
+  background: url("../assets/images/blog_image_3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out; /* Add transition with delay */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card_service3:hover {
+  background-size: 450px; /* Increased size for zoom effect */
+  background-position: center; /* Keeps the image centered */
+}
+.card_service3::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service3:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_s1 {
+  height: 178.39px;
+  width: 406px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #f7f4ed;
+  border: 2px solid transparent;
+}
+.card_h1 {
+  height: 30px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color:#E9b472;
+}
+.card_p1 {
+  height: 79.17px;
+  width: 90%;
+  margin-top: 0px;
+  margin-left: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.endbtn {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .main_services {
+    height: 179vh;
+    width: 100%;
+    margin-top: 60px;
+  }
+  .services_1 {
+    height: 156px;
+    width: 1300px;
+  }
+  .services_2 {
+    height: 595px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .services_3 {
+    height:479px;
+    width:603.33px;
+    border-radius: 28px;
+    margin-left: 190px;
+    margin-top: 40px;
+  }
+  .h_services {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_4 {
+    height: 595px;
+    width: 410px;
+    border-radius: 28px;
+    margin-right: 450px;
+  }
+  .services_5 {
+    height: 595px;
+    width: 410px;
+    border-radius: 28px;
+    background-color: #f7f4ed;
+  }
+  
+  .card_service1 {
+    height: 294.23px;
+    width: 403.33px;
+    background: url("../assets/images/blog_image_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service1:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service2 {
+    height: 294.23px;
+    width: 403.33px;
+    background: url("../assets/images/blog_image_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service2:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service2::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service3 {
+    height: 294.23px;
+    width: 403.33px;
+    background: url("../assets/images/blog_image_3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service3:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service3::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service3:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s1 {
+    height: 178.39px;
+    width: 406px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f7f4ed;
+    border: 2px solid transparent;
+  }
+  .card_h1 {
+    height: 30px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color:#E9b472;
+  }
+  .card_p1 {
+    height: 79.17px;
+    width: 90%;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .endbtn {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .main_services {
+    height: 179vh;
+    width: 100%;
+    margin-top: 60px;
+  }
+  .services_1 {
+    height: 156px;
+    width: 1300px;
+  }
+  .services_2 {
+    height: 595px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .services_3 {
+    height:479px;
+    width:603.33px;
+    border-radius: 28px;
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+  .h_services {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_4 {
+    height: 595px;
+    width: 410px;
+    border-radius: 28px;
+    margin-right: 450px;
+  }
+  .services_5 {
+    height: 595px;
+    width: 410px;
+    border-radius: 28px;
+    background-color: #f7f4ed;
+  }
+  
+  .card_service1 {
+    height: 294.23px;
+    width: 503.33px;
+    background: url("../assets/images/blog_image_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service1:hover {
+    background-size: 650px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service2 {
+    height: 294.23px;
+    width: 503.33px;
+    background: url("../assets/images/blog_image_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service2:hover {
+    background-size: 650px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service2::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service3 {
+    height: 294.23px;
+    width: 503.33px;
+    background: url("../assets/images/blog_image_3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service3:hover {
+    background-size: 650px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service3::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service3:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s1 {
+    height: 178.39px;
+    width: 504px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f7f4ed;
+    border: 2px solid transparent;
+  }
+  .card_h1 {
+    height: 30px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color:#E9b472;
+  }
+  .card_p1 {
+    height: 79.17px;
+    width: 90%;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .endbtn {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main_services {
+    height: 65vh;
+    width: 100%;
+    margin-top: 90px;
+  }
+  .services_1 {
+    height: 156px;
+    width: 1300px;
+  }
+  .services_2 {
+    height: 595px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .services_3 {
+    height:479px;
+    width:253.33px;
+    border-radius: 28px;
+  }
+  .h_services {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_4 {
+    height: 595px;
+    width: 410px;
+    border-radius: 28px;
+    margin-right: 450px;
+  }
+  .services_5 {
+    height: 595px;
+    width: 410px;
+    border-radius: 28px;
+    background-color: #f7f4ed;
+  }
+  
+  .card_service1 {
+    height: 294.23px;
+    width: 233.33px;
+    background: url("../assets/images/blog_image_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service1:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service2 {
+    height: 294.23px;
+    width: 233.33px;
+    background: url("../assets/images/blog_image_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service2:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service2::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service3 {
+    height: 294.23px;
+    width: 233.33px;
+    background: url("../assets/images/blog_image_3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service3:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service3::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service3:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s1 {
+    height: 178.39px;
+    width: 234px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f7f4ed;
+    border: 2px solid transparent;
+  }
+  .card_h1 {
+    height: 30px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color:#E9b472;
+  }
+  .card_p1 {
+    height: 79.17px;
+    width: 90%;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .endbtn {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main_services {
+    height: 65vh;
+    width: 100%;
+    margin-top: 90px;
+  }
+  .services_1 {
+    height: 156px;
+    width: 1300px;
+  }
+  .services_2 {
+    height: 595px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -40px;
+  }
+  .services_3 {
+    height:479px;
+    width:253.33px;
+    border-radius: 28px;
+  }
+  .h_services {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_4 {
+    height: 595px;
+    width: 410px;
+    border-radius: 28px;
+    margin-right: 450px;
+  }
+  .services_5 {
+    height: 595px;
+    width: 410px;
+    border-radius: 28px;
+    background-color: #f7f4ed;
+  }
+  
+  .card_service1 {
+    height: 294.23px;
+    width: 293.33px;
+    background: url("../assets/images/blog_image_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service1:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service2 {
+    height: 294.23px;
+    width: 293.33px;
+    background: url("../assets/images/blog_image_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service2:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service2::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service3 {
+    height: 294.23px;
+    width: 293.33px;
+    background: url("../assets/images/blog_image_3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service3:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service3::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service3:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s1 {
+    height: 178.39px;
+    width: 294px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f7f4ed;
+    border: 2px solid transparent;
+  }
+  .card_h1 {
+    height: 30px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color:#E9b472;
+  }
+  .card_p1 {
+    height: 79.17px;
+    width: 90%;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .endbtn {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+}

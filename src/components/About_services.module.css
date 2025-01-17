@@ -1,0 +1,1344 @@
+.main_services {
+  height: 84vh;
+  width: 100%;
+}
+.services_1 {
+  height: 156px;
+  width: 1300px;
+}
+.head_services {
+  height: 157px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services_2 {
+  height: 595px;
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 450px;
+}
+.services_3 {
+  border-radius: 28px;
+}
+.founder {
+  height: 43.19px;
+  width: 133.2px;
+  margin-left: 140px;
+  margin-top: -20px;
+  position: absolute;
+  background-color: #951f44;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.ceo {
+  height: 43.19px;
+  width: 84.73px;
+  margin-left: 160px;
+  margin-top: -20px;
+  position: absolute;
+  background-color: #951f44;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.h_services {
+  height: 610px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services_4 {
+  height: 595px;
+  width: 410px;
+  border-radius: 28px;
+  margin-right: 450px;
+}
+.services_5 {
+  height: 595px;
+  width: 410px;
+  border-radius: 28px;
+  background-color: #f7f4ed;
+}
+
+.card_service1 {
+  height: 326px;
+  width: 406px;
+  background: url("../assets/images/about_services_image_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out; /* Add transition with delay */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card_service1:hover {
+  background-size: 450px; /* Increased size for zoom effect */
+  background-position: center; /* Keeps the image centered */
+}
+.card_service1::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service1:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_s1 {
+  height: 164.39px;
+  width: 406px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #f7f4ed;
+  border: 2px solid transparent;
+}
+.card_service2 {
+  height: 326px;
+  width: 406px;
+  background: url("../assets/images/about_services_image_2.jpg");
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.1s;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card_service2::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service2:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_s2 {
+  height: 164.39px;
+  width: 406px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: 2px solid transparent;
+  background-color: #f7f4ed;
+}
+.card_service3 {
+  height: 226px;
+  width: 406px;
+  background: url("../assets/images/card_sec_3.jpg");
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease;
+  transition: 0.1s;
+  z-index: 1;
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card_service3::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card_service3:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.card_service3:hover {
+  background-position: center;
+  background-size: 450px;
+}
+.card_service2:hover {
+  background-position: center;
+  background-size: 450px;
+}
+.card_s3 {
+  height: 367px;
+  width: 406px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.card_h1 {
+  height: 30px;
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.card_p1 {
+  height: 37px;
+  width: 100%;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_h2 {
+  height: 30px;
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.card_p2 {
+  height: 37px;
+  width: 100%;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services_h {
+  height: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services_h1 {
+  height: 70px;
+  width: 100%;
+  font-size: 60px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.endbtn {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .main_services {
+    height: 84vh;
+    width: 100%;
+  }
+  .services_1 {
+    height: 156px;
+    width: 1300px;
+  }
+  .head_services {
+    height: 157px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_2 {
+    height: 595px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 450px;
+  }
+  .services_3 {
+    border-radius: 28px;
+  }
+  .founder {
+    height: 43.19px;
+    width: 133.2px;
+    margin-left: 140px;
+    margin-top: -20px;
+    position: absolute;
+    background-color: #951f44;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  .ceo {
+    height: 0px;
+    width:0px;
+    margin-left: 160px;
+    margin-top: -20px;
+    position: absolute;
+    background-color: #951f44;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  .h_services {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_4 {
+    height:0px;
+    width: 0px;
+    border-radius: 28px;
+    margin-right: 450px;
+  }
+  .services_5 {
+    height: 595px;
+    width: 410px;
+    border-radius: 28px;
+    background-color: #f7f4ed;
+  }
+  
+  .card_service1 {
+    height: 326px;
+    width: 406px;
+    background: url("../assets/images/about_services_image_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service1:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s1 {
+    height: 164.39px;
+    width: 406px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f7f4ed;
+    border: 2px solid transparent;
+  }
+  .card_service2 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card_service2::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s2 {
+    height: 0px;
+    width: 0px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid transparent;
+    background-color: #f7f4ed;
+  }
+  .card_service3 {
+    height: 226px;
+    width: 406px;
+    background: url("../assets/images/card_sec_3.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card_service3::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service3:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service3:hover {
+    background-position: center;
+    background-size: 450px;
+  }
+  .card_service2:hover {
+    background-position: center;
+    background-size: 450px;
+  }
+  .card_s3 {
+    height: 367px;
+    width: 406px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .card_h1 {
+    height: 30px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+  }
+  .card_p1 {
+    height: 37px;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card_h2 {
+    height: 0px;
+    width: 0%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0px;
+  }
+  .card_p2 {
+    height: 0px;
+    width: 0%;
+    margin-top: 25px;
+    font-size: 0px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_h {
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_h1 {
+    height: 70px;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .endbtn {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .main_services {
+    height: 84vh;
+    width: 100%;
+  }
+  .services_1 {
+    height: 156px;
+    width: 1300px;
+  }
+  .head_services {
+    height: 157px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_2 {
+    height: 595px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+  .services_3 {
+    border-radius: 28px;
+    width:100%;
+    margin-left: 110px;
+  }
+  .founder {
+    height: 43.19px;
+    width: 133.2px;
+    margin-left: 140px;
+    margin-top: -20px;
+    position: absolute;
+    background-color: #951f44;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  .ceo {
+    height: 0px;
+    width:0px;
+    margin-left: 160px;
+    margin-top: -20px;
+    position: absolute;
+    background-color: #951f44;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  .h_services {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_4 {
+    height:0px;
+    width: 0px;
+    border-radius: 28px;
+    margin-right: 450px;
+  }
+  .services_5 {
+    height: 595px;
+    width: 410px;
+    border-radius: 28px;
+    background-color: #f7f4ed;
+  }
+  
+  .card_service1 {
+    height: 326px;
+    width: 406px;
+    background: url("../assets/images/about_services_image_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service1:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s1 {
+    height: 164.39px;
+    width: 406px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f7f4ed;
+    border: 2px solid transparent;
+  }
+  .card_service2 {
+    height: 0px;
+    width: 0px;
+    background: url("");
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card_service2::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s2 {
+    height: 0px;
+    width: 0px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid transparent;
+    background-color: #f7f4ed;
+  }
+  .card_service3 {
+    height: 226px;
+    width: 406px;
+    background: url("../assets/images/card_sec_3.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card_service3::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service3:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service3:hover {
+    background-position: center;
+    background-size: 450px;
+  }
+  .card_service2:hover {
+    background-position: center;
+    background-size: 450px;
+  }
+  .card_s3 {
+    height: 367px;
+    width: 406px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .card_h1 {
+    height: 30px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+  }
+  .card_p1 {
+    height: 37px;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card_h2 {
+    height: 0px;
+    width: 0%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0px;
+  }
+  .card_p2 {
+    height: 0px;
+    width: 0%;
+    margin-top: 25px;
+    font-size: 0px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_h {
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_h1 {
+    height: 70px;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .endbtn {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .main_services {
+    height: 84vh;
+    width: 100%;
+  }
+  .services_1 {
+    height: 156px;
+    width: 1300px;
+  }
+  .head_services {
+    height: 157px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_2 {
+    height: 595px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  .services_3 {
+    border-radius: 28px;
+    width:70%;
+  }
+  .founder {
+    height: 43.19px;
+    width: 133.2px;
+    margin-left: 140px;
+    margin-top: -20px;
+    position: absolute;
+    background-color: #951f44;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  .ceo {
+    height: 43.19px;
+    width: 84.73px;
+    margin-left: 160px;
+    margin-top: -20px;
+    position: absolute;
+    background-color: #951f44;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  .h_services {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_4 {
+    height: 595px;
+    width: 70%;
+    border-radius: 28px;
+    margin-right: 450px;
+    margin-left: 20px;
+  }
+  .services_5 {
+    height: 595px;
+    width: 410px;
+    border-radius: 28px;
+    background-color: #f7f4ed;
+  }
+  
+  .card_service1 {
+    height: 326px;
+    width: 386px;
+    background: url("../assets/images/about_services_image_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service1:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s1 {
+    height: 164.39px;
+    width: 386px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f7f4ed;
+    border: 2px solid transparent;
+  }
+  .card_service2 {
+    height: 326px;
+    width: 386px;
+    background: url("../assets/images/about_services_image_2.jpg");
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card_service2::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s2 {
+    height: 164.39px;
+    width: 386px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid transparent;
+    background-color: #f7f4ed;
+  }
+  .card_service3 {
+    height: 226px;
+    width: 406px;
+    background: url("../assets/images/card_sec_3.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card_service3::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service3:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service3:hover {
+    background-position: center;
+    background-size: 450px;
+  }
+  .card_service2:hover {
+    background-position: center;
+    background-size: 450px;
+  }
+  .card_s3 {
+    height: 367px;
+    width: 406px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .card_h1 {
+    height: 30px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+  }
+  .card_p1 {
+    height: 37px;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card_h2 {
+    height: 30px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+  }
+  .card_p2 {
+    height: 37px;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_h {
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_h1 {
+    height: 70px;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .endbtn {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  .main_services {
+    height: 84vh;
+    width: 100%;
+  }
+  .services_1 {
+    height: 156px;
+    width: 1300px;
+  }
+  .head_services {
+    height: 157px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_2 {
+    height: 595px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 320px;
+  }
+  .services_3 {
+    border-radius: 28px;
+    width:70%;
+  }
+  .founder {
+    height: 43.19px;
+    width: 133.2px;
+    margin-left: 140px;
+    margin-top: -20px;
+    position: absolute;
+    background-color: #951f44;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  .ceo {
+    height: 43.19px;
+    width: 84.73px;
+    margin-left: 160px;
+    margin-top: -20px;
+    position: absolute;
+    background-color: #951f44;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  .h_services {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_4 {
+    height: 595px;
+    width: 70%;
+    border-radius: 28px;
+    margin-right: 450px;
+    margin-left: 20px;
+  }
+  .services_5 {
+    height: 595px;
+    width: 410px;
+    border-radius: 28px;
+    background-color: #f7f4ed;
+  }
+  
+  .card_service1 {
+    height: 326px;
+    width: 386px;
+    background: url("../assets/images/about_services_image_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    transition: background-size 0.9s ease-in-out,
+      background-position 0.9s ease-in-out; /* Add transition with delay */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card_service1:hover {
+    background-size: 450px; /* Increased size for zoom effect */
+    background-position: center; /* Keeps the image centered */
+  }
+  .card_service1::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service1:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s1 {
+    height: 164.39px;
+    width: 386px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f7f4ed;
+    border: 2px solid transparent;
+  }
+  .card_service2 {
+    height: 326px;
+    width: 386px;
+    background: url("../assets/images/about_services_image_2.jpg");
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card_service2::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service2:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_s2 {
+    height: 164.39px;
+    width: 386px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid transparent;
+    background-color: #f7f4ed;
+  }
+  .card_service3 {
+    height: 226px;
+    width: 406px;
+    background: url("../assets/images/card_sec_3.jpg");
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
+    transition: 0.1s;
+    z-index: 1;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card_service3::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  .card_service3:hover::before {
+    width: 215%;
+    opacity: 0; /* Fade out the light */
+    transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+  }
+  .card_service3:hover {
+    background-position: center;
+    background-size: 450px;
+  }
+  .card_service2:hover {
+    background-position: center;
+    background-size: 450px;
+  }
+  .card_s3 {
+    height: 367px;
+    width: 406px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .card_h1 {
+    height: 30px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+  }
+  .card_p1 {
+    height: 37px;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card_h2 {
+    height: 30px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+  }
+  .card_p2 {
+    height: 37px;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_h {
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_h1 {
+    height: 70px;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .endbtn {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}

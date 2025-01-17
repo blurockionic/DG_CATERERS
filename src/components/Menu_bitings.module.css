@@ -1,0 +1,1607 @@
+.main_menu {
+  height: 1420px;
+  width: 100%;
+}
+.head_menu {
+  height: 280px;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.menu_1 {
+  height: 280px;
+  width: 22%;
+  border-radius: 15px;
+}
+.m_1 {
+  height: 40px;
+  width: 100%;
+  border: 2px solid #edc888;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a30132;
+}
+.m_1:hover {
+  color: #edc888;
+  cursor: pointer;
+}
+.m_2 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_1.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_2::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_2:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_21 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_2.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_21::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_21:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_22 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_3.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_22::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_22:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_23 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_4.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_23::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_23:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_24 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_5.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_24::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_24:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_25 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_6.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_25::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_25:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_26 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_7.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_26::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_26:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_27 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_8.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_27::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_27:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_28 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_9.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_28::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_28:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_29 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_10.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_29::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_29:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_30 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_11.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_30::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_30:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_31 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_12.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_31::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_31:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_32 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_13.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_32::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_32:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_33 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_14.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_33::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_33:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_34 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_15.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_34::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_34:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.m_35 {
+  height: 238px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: url("../assets/images/bitings_image_16.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: background-size 0.9s ease-in-out,
+    background-position 0.9s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.m_35::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  opacity: 0.3;
+  z-index: -1;
+}
+.m_35:hover::before {
+  width: 215%;
+  opacity: 0; /* Fade out the light */
+  transition: width 0.9s ease, opacity 0.5s ease; /* Transition only on hover */
+}
+.item_1 {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.item_1:hover {
+  color: #edc888;
+}
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .main_menu {
+    height: 1790px;
+    width: 100%;
+  }
+  .head_menu {
+    height: 380px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 15px;
+  }
+  .menu_1 {
+    height: 180px;
+    width: 44%;
+    border-radius: 15px;
+    flex-wrap: wrap;
+  }
+  .m_1 {
+    height: 45px;
+    width: 100%;
+    border: 2px solid #edc888;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #a30132;
+  }
+  .m_1:hover {
+    color: #edc888;
+    cursor: pointer;
+  }
+  .m_2 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_1.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  .m_21 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_2.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_22 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_3.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_23 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_4.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_24 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_5.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_25 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_6.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_26 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_7.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_27 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_8.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_28 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_9.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_29 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_10.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_30 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_11.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_31 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_12.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_32 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_13.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_33 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_14.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_34 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_15.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_35 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_16.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .main_menu {
+    height: 1870px;
+    width: 100%;
+  }
+  .head_menu {
+    height: 400px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 25px;
+  }
+  .menu_1 {
+    height: 180px;
+    width: 44%;
+    border-radius: 15px;
+    flex-wrap: wrap;
+  }
+  .m_1 {
+    height: 40px;
+    width: 100%;
+    border: 2px solid #edc888;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a30132;
+  }
+  .m_1:hover {
+    color: #edc888;
+    cursor: pointer;
+  }
+  .m_2 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_1.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_21 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_2.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_22 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_3.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_23 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_4.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_24 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_5.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_25 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_6.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_26 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_7.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_27 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_8.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_28 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_9.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_29 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_10.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_30 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_11.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_31 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_12.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_32 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_13.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_33 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_14.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_34 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_15.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_35 {
+    height: 138px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_16.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main_menu {
+    height: 2260px;
+    width: 100%;
+  }
+  .head_menu {
+    height: 500px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 35px;
+  }
+  .menu_1 {
+    height: 220px;
+    width: 44%;
+    border-radius: 15px;
+    flex-wrap: wrap;
+  }
+  .m_1 {
+    height: 40px;
+    width: 100%;
+    border: 2px solid #edc888;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a30132;
+  }
+  .m_1:hover {
+    color: #edc888;
+    cursor: pointer;
+  }
+  .m_2 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_1.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_21 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_2.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_22 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_3.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_23 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_4.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_24 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_5.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_25 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_6.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_26 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_7.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_27 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_8.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_28 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_9.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_29 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_10.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_30 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_11.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_31 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_12.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_32 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_13.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_33 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_14.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_34 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_15.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_35 {
+    height: 178px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_16.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main_menu {
+    height: 1420px;
+    width: 100%;
+  }
+  .head_menu {
+    height: 280px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-top: 60px;
+  }
+  .menu_1 {
+    height: 280px;
+    width: 22%;
+    border-radius: 15px;
+  }
+  .m_1 {
+    height: 40px;
+    width: 100%;
+    border: 2px solid #edc888;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a30132;
+  }
+  .m_1:hover {
+    color: #edc888;
+    cursor: pointer;
+  }
+  .m_2 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_1.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_21 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_2.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_22 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_3.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_23 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_4.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_24 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_5.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_25 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_6.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_26 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_7.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_27 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_8.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_28 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_9.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_29 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_10.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_30 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_11.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_31 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_12.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_32 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_13.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_33 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_14.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_34 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_15.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_35 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_16.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .main_menu {
+    height: 1420px;
+    width: 100%;
+  }
+  .head_menu {
+    height: 280px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    margin-top: 60px;
+  }
+  .menu_1 {
+    height: 280px;
+    width: 22%;
+    border-radius: 15px;
+  }
+  .m_1 {
+    height: 40px;
+    width: 100%;
+    border: 2px solid #edc888;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a30132;
+  }
+  .m_1:hover {
+    color: #edc888;
+    cursor: pointer;
+  }
+  .m_2 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_1.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_21 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_2.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_22 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_3.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_23 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_4.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_24 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_5.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_25 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_6.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_26 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_7.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_27 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_8.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_28 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_9.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_29 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_10.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_30 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_11.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_31 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_12.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_32 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_13.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_33 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_14.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_34 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_15.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .m_35 {
+    height: 238px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("../assets/images/bitings_image_16.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
